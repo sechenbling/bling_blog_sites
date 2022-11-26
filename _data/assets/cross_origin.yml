@@ -1,0 +1,64 @@
+# CDNs
+
+cdns:
+  # Google Fonts
+  - url: https://fonts.googleapis.com
+  - url: https://fonts.gstatic.com
+    args: crossorigin
+  - url: https://fonts.googleapis.com
+  # jsDelivr CDN
+  - url: https://cdn.jsdelivr.net
+
+# fonts
+
+webfonts: https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;700;900&display=swap
+
+# Libraries
+
+jquery:
+  js: /assets/lib/jquery-3.6.0/jquery.min.js
+
+bootstrap:
+  css: https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css
+  js: https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.bundle.min.js
+
+bootstrap-toc:
+#  css: https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css
+#  js: https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js
+  css: /assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.css
+  js: /assets/lib/bootstrap-toc-1.0.1/bootstrap-toc.min.js
+
+fontawesome:
+  css: /assets/lib/fontawesome/css/all.min.css
+
+search:
+  js: /assets/lib/simple-jekyll-search-1.10.0/simple-jekyll-search.min.js
+
+mermaid:
+  js: /assets/lib/mermaid-9.1.7/mermaid.min.js
+
+dayjs:
+  js:
+    common: /assets/lib/dayjs-1.10.7/dayjs.min.js
+    locale: /assets/lib/dayjs-1.10.7/locale/en.min.js
+    relativeTime: /assets/lib/dayjs-1.10.7/plugin/relativeTime.min.js
+    localizedFormat: /assets/lib/dayjs-1.10.7/plugin/localizedFormat.min.js
+
+countup:
+  js: https://cdn.jsdelivr.net/npm/countup.js@1.9.3/dist/countUp.min.js
+
+magnific-popup:
+  css: https://cdn.jsdelivr.net/npm/magnific-popup@1/dist/magnific-popup.min.css
+  js: https://cdn.jsdelivr.net/npm/magnific-popup@1/dist/jquery.magnific-popup.min.js
+
+lozad:
+  js: /assets/lib/lozad-1.16.0/lozad.min.js
+
+clipboard:
+  js: /assets/lib/clipboard-2.0.9/clipboard.min.js
+
+polyfill:
+  js: /assets/lib/polyfill-v3-es6/polyfill.min.js
+
+mathjax:
+  js: /assets/lib/mathjax-3.2.0/tex-chtml.js

@@ -1,0 +1,17 @@
+commons:
+  back-to-top: /assets/js/commons/back-to-top.js
+  mode-toggle: /assets/js/commons/mode-toggle.js
+  scroll-helper: /assets/js/commons/scroll-helper.js
+  search-display: /assets/js/commons/search-display.js
+  sidebar: /assets/js/commons/sidebar.js
+  tooltip-loader: /assets/js/commons/tooltip-loader.js
+  topbar-switcher: /assets/js/commons/topbar-switcher.js
+  topbar-title: /assets/js/commons/topbar-title.js
+
+utils:
+  category-collapse: assets/js/utils/category-collapse.js
+  clipboard: assets/js/utils/clipboard.js
+  img-extra: assets/js/utils/img-extra.js
+  locale-datetime: assets/js/utils/locale-datetime.js
+  pageviews: assets/js/utils/pageviews.js
+  smooth-scroll: assets/js/utils/smooth-scroll.js
