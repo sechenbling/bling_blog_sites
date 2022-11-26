@@ -104,13 +104,15 @@
 
         setLight() {
             $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
-            document.getElementById("mode-toggle-btn").setAttribute("class","fa-regular fa-sun");
+            document.getElementById("mode-toggle-btn")
+                .setAttribute("class","fa-regular fa-sun");
             sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
         }
 
         clearMode() {
             $('html').removeAttr(ModeToggle.MODE_ATTR);
-            document.getElementById("mode-toggle-btn").setAttribute("class","fa-regular fa-sun");
+            document.getElementById("mode-toggle-btn")
+                .setAttribute("class","fa-regular fa-sun");
             sessionStorage.removeItem(ModeToggle.MODE_KEY);
         }
 
