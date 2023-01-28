@@ -48,7 +48,7 @@ disqus:
 
 # boolean type, the global switch for ToC in posts.
 toc: true
-paginate: 5
+paginate: 8
 markdown: kramdown
 highlighter: rouge
 kramdown:
