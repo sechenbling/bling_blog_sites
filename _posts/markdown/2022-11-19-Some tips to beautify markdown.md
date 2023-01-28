@@ -1,12 +1,11 @@
 ---
 title: Some tips to beautify markdown
 author: Lynn
-date: 2022-11-25 20:00:00 +0800
-last_modified_at: 2022-11-25 21:30:00 +0800
+date: 2022-11-19 20:00:00 +0800
+last_modified_at: 2022-11-20 21:30:00 +0800
 categories: [Markdown, Edit]
 tags: [markdown]
 syntax: colorful
-pin: true
 ---
 
 This post is to show how sites renders markdown file syntax and beatify it to beautify it to be more in line with viewing blog.

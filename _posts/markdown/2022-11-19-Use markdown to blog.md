@@ -1,12 +1,11 @@
 ---
 title: Use markdown to blog
 author: Lynn
-date: 2022-11-26 00:00:00 +0800
-last_modified_at: 2022-11-26 20:00:00 +0800
+date: 2022-11-19 00:00:00 +0800
+last_modified_at: 2022-11-19 20:00:00 +0800
 categories: [Markdown, Edit]
 tags: [markdown]
 syntax: colorful
-pin: true
 ---
 ## Naming and Path
 
