@@ -1,0 +1,13 @@
+<span class="timeago {% if include.class %}{{ include.class }}{% endif %}"
+  {% if include.tooltip %}
+    data-toggle="tooltip"
+    data-placement="bottom"
+    title="{{ site.timezone }}"
+  {% endif %}>
+
+  {{ include.date |  date: "%A %p." }}
+
+  <i class="unloaded">{{ include.date | date: "%Z" }}</i>
+</span>
+
+<!-- title="{{ include.date | date: site.data.date_format.timezone }}"-->

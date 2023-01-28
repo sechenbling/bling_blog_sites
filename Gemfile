@@ -5,7 +5,6 @@ gem "jekyll", ">= 3.8.6", "< 5.0"
 gem "font-awesome-sass", "~> 6.2.1"
 
 gem "github-pages", group: :jekyll_plugins
-gem 'jekyll-timeago', group: :jekyll_plugins
 gem 'rouge'
 
 gem "webrick", "~> 1.7"
