@@ -1,8 +1,8 @@
 ---
-title: Data Warehouse Modeling
+title: Data Warehouse Model
 author: Lynn
 date: 2023-01-28 21:30:00 +0800
-last_modified_at: 2023-01-28 21:40:00 +0800
+last_modified_at: 2023-01-28 21:35:00 +0800
 categories: [Bigdata, DataWarehouse]
 tags: [data warehouse]
 syntax: colorful
