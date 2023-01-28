@@ -35,7 +35,7 @@ syntax: colorful
 
 ## 数据仓库建模
 ### 仓库流程图
-![img.png](/blog_imgs/data warehouse/theory/data warehouse modeling img1.png)
+![img.png](/blog_imgs/data warehouse/theory/data warehouse model/data warehouse model img1.png)
 ### 数据建模
 数据组织和存储方法与数据的处理（建表+写SQL）
 - 每一层的数据是具有依赖关系的，需要按链路流程下去
@@ -58,12 +58,12 @@ syntax: colorful
     * 第二范式：表中不存在不分函数依赖 
     * 第三范式：表中不存在传递函数依赖
   + 对简单的需求可能需要跨越大量的表进行join操作才能获取到相应的数据，比较影响性能，并不适合直接用于分析统计操作。  
-![img.png](/blog_imgs/data warehouse/theory/data warehouse modeling img2.png)
+![img.png](/blog_imgs/data warehouse/theory/data warehouse model/data warehouse model img2.png)
 - 维度模型
   + 维度模型将业务通过事实和维度两个概念进行呈现，事实对应业务过程，而维度通常对应业务过程发生时所处的环境。抽象为事实表和维度表。关注于数据分析，如何更快完成需求分析和大规模复杂查询的相应性能。只需要通过一个事实表和其他维度表进行关联即可，使用维度表里的字段进行过滤。
   + 缺点在于数据冗余，比如Date中的年分，同一年中多天都是一个年份，但是放在大数据集群中对存储空间并不考虑，效率更重要（HDFS无限扩展）；此外更改数据时会出现数据一致性问题，不过数仓不会针对一条或几条数据进行更改，而是批量大规模更改。
   + 业务过程可以概括为一个个不可拆分的行为事件，比如商品下单等。
-![img.png](/blog_imgs/data warehouse/theory/data warehouse modeling img3.png)
+![img.png](/blog_imgs/data warehouse/theory/data warehouse model/data warehouse model img3.png)
 
 
 ## 维度模型
