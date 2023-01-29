@@ -1,8 +1,9 @@
 ---
 # the default layout is 'page'
 layout: page
+title: About
 icon: fas fa-info-circle
-order: 1
+order: 5
 ---
 
 - 👋 Hi, I’m Lynn!

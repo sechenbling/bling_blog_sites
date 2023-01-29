@@ -8,11 +8,11 @@ layout:
 # The tabs of sidebar
 tabs:
   home: Home
+  timeline: Timeline
+  categories: Categories
+  tags: Tags
+  plans: Plans
   about: About
-#  categories: Categories
-#  tags: Tags
-#  archives: Archives
-#  about: About
 
 # the text displayed in the search bar & search results
 search:
