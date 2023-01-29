@@ -2,7 +2,7 @@
 title: Update logs
 author: Lynn
 date: 2022-11-20 20:00:00 +0800
-last_modified_at: 2022-11-27 21:30:00 +0800
+last_modified_at: 2023-01-29 18:30:00 +0800
 categories: [Logs, Update]
 tags: [update,logs]
 syntax: colorful 
@@ -16,6 +16,7 @@ pin: true
 - home:
   ![img.png](/blog_imgs/update_logs/windows-2023-01-29-home.png)
 ### Update logs
+
 >
 1️⃣ 启用根据post类别和标签进行跳转和分类查询的功能, 包括根据归档和标签进行检索的查询方式.  
 2️⃣ 区分post time和modified time; 增加了timeline的tabs, 可以使用timeline以post time作为顺序查看, 也可根据主页以modified time作为顺序查看.  
