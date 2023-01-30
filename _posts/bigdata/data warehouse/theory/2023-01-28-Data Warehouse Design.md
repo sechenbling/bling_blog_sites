@@ -11,7 +11,7 @@ syntax: colorful
 ## 数据仓库设计
 ### 数据仓库分层规划
 使数据体系更加清洗，简单化复杂问题（one data理论分层）
-![img.png](/blog_imgs/data warehouse/theory/data warehouse design/data warehouse design img1.png)
+![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse design/data warehouse design img1.png)
 ODS:
 : operation data store:业务系统的原始数据，未经处理的数据，放在HDFS以文件形式的存储，从HDFS原路径load(底层是剪切操作)到ODS层。
 
@@ -28,7 +28,7 @@ ADS:
 : application data service:存放各项统计指标结果。
 
 ## 数仓构建流程
-![img.png](/blog_imgs/data warehouse/theory/data warehouse design/data warehouse design img2.png)
+![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse design/data warehouse design img2.png)
 ### 数据调研：
 - 业务调研：熟悉业务流程，熟悉业务数据
 - 需求分析：明确需求所需的业务过程及维度
@@ -48,7 +48,7 @@ ADS:
 
 ### 构建业务总线矩阵
 服务于维度模型的设计
-- ![img.png](/blog_imgs/data warehouse/theory/data warehouse design/data warehouse design img3.png)
+- ![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse design/data warehouse design img3.png)
 - 总线矩阵中通常只包含事务型事实表，其他两种类型的表单独设计
 
 ### 维度模型设计
@@ -60,14 +60,14 @@ ADS:
   + 比如每个订单都有金额，订单总额就是一个原子指标
   + 原子指标只是用来辅助下面两个定义的一个概念，通常没有实际的对应需求
 - 派生指标：基于原子指标，通常会对应实际的统计需求，关系图如下
-- ![img.png](/blog_imgs/data warehouse/theory/data warehouse design/data warehouse design img4.png)
+- ![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse design/data warehouse design img4.png)
 - 衍生指标：在多个派生指标的基础上，通过各种逻辑运算复合而来的，比如比率、比例等
-- ![img.png](/blog_imgs/data warehouse/theory/data warehouse design/data warehouse design img5.png)
+- ![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse design/data warehouse design img5.png)
 - 指标理论体系意义：公共的派生指标保存在DWS层，统计需求足够多的时候，会出现公共的派生指标，因此DWS层设计可以参考现有的统计需求整理出来 
 
 ### 汇总模型设计
 一张汇总表会包括业务过程相同，统计周期相同，统计粒度相同的多个派生指标
-- ![img.png](/blog_imgs/data warehouse/theory/data warehouse design/data warehouse design img6.png)
+- ![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse design/data warehouse design img6.png)
 - 汇总表是由一张事实表（一个业务过程）汇总而来的，汇总表却不止一张，属于一对多的关系
 
 ## 数据仓库环境配置
