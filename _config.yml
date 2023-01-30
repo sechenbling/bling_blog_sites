@@ -1,11 +1,11 @@
-author: Lynn Chen
+author: BreeLynn Chen
 lang: en
 timezone: Asia/Shanghai
 #theme_mode: [light|dark]
 #theme_mode: dual
 avatar: /assets/img/sample/avatar.png
 title: Blingblogs
-tagline: more than codes
+tagline: life can also be multi-threaded
 description: >-
   A site with blogs involve backend, big data, or other daily programming records.
 url: 'https://sechenbling.github.io'
