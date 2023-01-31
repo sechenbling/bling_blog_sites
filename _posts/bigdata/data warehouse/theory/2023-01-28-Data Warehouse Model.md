@@ -9,6 +9,7 @@ syntax: colorful
 ---
 
 ## 数据仓库介绍
+
 ### 数据仓库
 - 用于存储分析报告的数据系统
   + 并不产生数据（数据来自于外部系统） 也不消费数据（其结果开放给外部应用使用）
@@ -34,8 +35,10 @@ syntax: colorful
 结构化查询语言：分析领域主流开发语言，SQL本身是针对数据库软件设计的，但是在大数据数仓领域，很多数仓都会支持SQL语法
 
 ## 数据仓库建模
+
 ### 仓库流程图
 ![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse model/data warehouse model img1.png)
+
 ### 数据建模
 数据组织和存储方法与数据的处理（建表+写SQL）
 - 每一层的数据是具有依赖关系的，需要按链路流程下去

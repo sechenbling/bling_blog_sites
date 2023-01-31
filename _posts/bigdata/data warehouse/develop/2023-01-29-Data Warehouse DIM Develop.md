@@ -8,11 +8,13 @@ tags: [data warehouse]
 syntax: colorful
 ---
 ## DIM层
+
 ### DIM层设计要点
 - DIM层的设计一句是维度建模理论，该层存储维度模型的维度表（重点）
 - DIM层的数据存储格式为orc列式存储+snappy压缩（相较于ODS的存储格式和压缩更快）
   + ODS在乎的是减少存储空间，其他层在乎的是查询更快
 - DIM层表名的命名规范为dim_表名_全量表或者拉链表标识（full/zip）
+
 ### 维度表设计：
 - 确定维度表
 - 确定主维度表和相关维度表
@@ -25,6 +27,7 @@ syntax: colorful
     * 全量表数据，数据装载从ODS的一个分区到DIM层的一个分区，时间分区要对应上
 
 ## DIM层 dev experience
+
 ### Hive复杂数据类型构建
 + **array**：
   * array() 一行一出: array(val1,val2…)

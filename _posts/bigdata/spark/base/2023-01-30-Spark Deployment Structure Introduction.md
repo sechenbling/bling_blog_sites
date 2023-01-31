@@ -1,12 +1,13 @@
 ---
 title: Spark Deployment Structure Introduction
 author: Lynn
-date: 2023-01-30 22:30:00 +0800
+date: 2022-11-25 22:30:00 +0800
 last_modified_at: 2023-01-30 22:30:00 +0800
 categories: [Bigdata, Spark]
 tags: [spark]
 ---
 ## Spark Introduction
+
 ### Spark Summary
 1. Spark 是一种由 Scala 语言开发的快速、通用、可扩展的大数据分析引擎 
 2. Spark Core 中提供了 Spark 最基础与最核心的功能 
@@ -30,6 +31,7 @@ tags: [spark]
 - Spark GraphX：GraphX 是 Spark 面向图计算提供的框架与算法库。
 
 ## Spark Environment
+
 ### Spark 部署运行环境
 **不同模式最主要的区别还是在指定--master时的运行环境和模式**
 ![img.png](/blog_imgs/spark/base/spark deployment structure introduction/img0.png)
@@ -91,8 +93,6 @@ standalone模式有spark自身提提供计算资源，无需其他框架提供�
 容器化部署：容器管理工具中最为流行的就是 Kubernetes（k8s），而 Spark 也在最近的版本中支持了 k8s 部署模式。
 
 5. windows模式：不用启用虚拟机直接使用
-
-
 
 ### Spark运行架构
 **采用标准的主从结构master-slave**  

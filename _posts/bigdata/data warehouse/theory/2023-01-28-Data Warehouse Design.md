@@ -9,6 +9,7 @@ syntax: colorful
 ---
 
 ## 数据仓库设计
+
 ### 数据仓库分层规划
 使数据体系更加清洗，简单化复杂问题（one data理论分层）
 ![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse design/data warehouse design img1.png)
@@ -29,6 +30,7 @@ ADS:
 
 ## 数仓构建流程
 ![img.png](/blog_imgs/bigdata/data warehouse/theory/data warehouse design/data warehouse design img2.png)
+
 ### 数据调研：
 - 业务调研：熟悉业务流程，熟悉业务数据
 - 需求分析：明确需求所需的业务过程及维度
@@ -72,6 +74,7 @@ ADS:
 
 ## 数据仓库环境配置
 绝大多数与事实表的业务表都是增量同步，绝大多数与维度表相关的业务表都是全量同步（非绝对，比如需要设计成拉链表类型的维度表不需要同步所有数据，只需要同步新增变化，用增量同步即可）
+
 ### **数仓运行环境准备**
 - Hive环境：引擎变更，从MR转变为使用Spark
   + 区分
