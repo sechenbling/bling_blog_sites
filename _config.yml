@@ -5,7 +5,7 @@ timezone: Asia/Shanghai
 #theme_mode: dual
 avatar: /assets/img/sample/avatar.png
 title: Blingblogs
-tagline: life can also be multi-threaded
+tagline: Happy Everyday
 description: >-
   A site with blogs involve backend, big data, or other daily programming records.
 url: 'https://sechenbling.github.io'
@@ -14,9 +14,9 @@ baseurl: ''
 github:
   username: sechenbling
 twitter:
-  username: sechenbling
+  username: invalid
 bilibili:
-  username: 15164783
+  username: 1
 
 social:
   name: Lynn Chen
